@@ -13,6 +13,7 @@ Disponible para trabajo freelance y por contrato, en español o en inglés.
 | Proyecto | Qué demuestra | Stack |
 |---|---|---|
 | [laravel-serverless-aws](https://github.com/JulianContreras02/laravel-serverless-aws) | Una API para acortar enlaces con estadísticas de clics, hecha como referencia para llevar PHP heredado a serverless. Corre en AWS Lambda con Bref; la infraestructura está en Terraform y se despliega con GitHub Actions por OIDC, sin llaves de AWS guardadas. | Laravel · Bref · Lambda · RDS · Terraform |
+| [laravel-ai-document-extractor](https://github.com/JulianContreras02/laravel-ai-document-extractor) | **Cotejo** lee facturas y recibos (PDF, escaneos y fotos del celular) con la API de Claude, comprueba cada cifra con reglas de negocio y manda los documentos dudosos a revisión humana. Evaluado con 25 facturas sintéticas: 99,7 % de campos correctos y ninguna aprobada por error. | Laravel · API de Claude · Inertia · React · Docker |
 | [laravel-resilient-batch-jobs](https://github.com/JulianContreras02/laravel-resilient-batch-jobs) | Procesos por lotes que sobreviven a caídas y a APIs inestables: marca de agua idempotente, mutex en MySQL, una máquina de estados que se recupera sola y jobs seguros frente a `retry_after`, probados con casos de peor caso de 100.000 filas. | Laravel · MySQL · Colas · Pest |
 | [laravel-integrations-kit](https://github.com/JulianContreras02/laravel-integrations-kit) | Patrones de integración entre sistemas: cliente OAuth2 con caché de token a prueba de estampidas, exportación de XLSX a S3 en streaming, entrega idempotente por SFTP con reintentos y correos que cambian a enlaces firmados cuando el adjunto es demasiado grande. | Laravel · S3 · SFTP · OAuth2 · Docker |
 | [laravel-pdf-toolkit](https://github.com/JulianContreras02/laravel-pdf-toolkit) | **Pliego**, una caja de herramientas PDF autoalojada: unir, separar, comprimir, rotar y convertir en un worker de Ghostscript/qpdf aislado de la red. Los archivos se borran solos. | Laravel · Inertia · React · Ghostscript |
@@ -36,4 +37,4 @@ Disponible para trabajo freelance y por contrato, en español o en inglés.
 
 ## Stack
 
-PHP · Laravel · MySQL · AWS (Lambda, S3, SES, RDS, EC2) · Terraform · Docker · GitHub Actions · React · TypeScript · .NET · Swift
+PHP · Laravel · MySQL · AWS (Lambda, S3, SES, RDS, EC2) · Terraform · Docker · GitHub Actions · API de Claude · React · TypeScript · .NET · Swift

@@ -13,6 +13,7 @@ Available for freelance and contract work. I work in English and Spanish (*tambi
 | Project | What it shows | Stack |
 |---|---|---|
 | [laravel-serverless-aws](https://github.com/JulianContreras02/laravel-serverless-aws) | A URL shortener API with click analytics, built as a reference for moving legacy PHP to serverless. Runs on AWS Lambda with Bref; infrastructure in Terraform and deploys through GitHub Actions with OIDC (no stored AWS keys). | Laravel · Bref · Lambda · RDS · Terraform |
+| [laravel-ai-document-extractor](https://github.com/JulianContreras02/laravel-ai-document-extractor) | **Cotejo** reads invoices and receipts (PDFs, scans, phone photos) with the Claude API, checks every number with business rules and sends doubtful documents to human review. Evaluated on 25 synthetic invoices: 99.7% of fields right, none approved wrongly. | Laravel · Claude API · Inertia · React · Docker |
 | [laravel-resilient-batch-jobs](https://github.com/JulianContreras02/laravel-resilient-batch-jobs) | Batch processing that survives crashes and flaky APIs: idempotent watermark, MySQL mutex, a self-healing state machine and `retry_after`-safe jobs, tested with 100,000-row worst cases. | Laravel · MySQL · Queues · Pest |
 | [laravel-integrations-kit](https://github.com/JulianContreras02/laravel-integrations-kit) | System integration patterns: OAuth2 client credentials with a stampede-safe token cache, streamed XLSX export to S3, idempotent SFTP delivery with retries, and email that switches to signed links when attachments get too big. | Laravel · S3 · SFTP · OAuth2 · Docker |
 | [laravel-pdf-toolkit](https://github.com/JulianContreras02/laravel-pdf-toolkit) | **Pliego**, a self-hosted PDF toolkit: merge, split, compress, rotate and convert in a network-isolated Ghostscript/qpdf worker. Files delete themselves. | Laravel · Inertia · React · Ghostscript |
@@ -36,4 +37,4 @@ Available for freelance and contract work. I work in English and Spanish (*tambi
 
 ## Stack
 
-PHP · Laravel · MySQL · AWS (Lambda, S3, SES, RDS, EC2) · Terraform · Docker · GitHub Actions · React · TypeScript · .NET · Swift
+PHP · Laravel · MySQL · AWS (Lambda, S3, SES, RDS, EC2) · Terraform · Docker · GitHub Actions · Claude API · React · TypeScript · .NET · Swift
