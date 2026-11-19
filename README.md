@@ -6,7 +6,9 @@
 
 Systems engineer with an MSc in DevOps (UNIR), based in Colombia (UTC−5). I modernize backend systems: I move legacy PHP to Laravel on AWS, connect systems that were never meant to talk to each other, and build batch processes that keep working when something fails at 3 a.m.
 
-Available for freelance and contract work. I work in English and Spanish (*también trabajo en español*).
+Open to full-time remote roles, freelance and contract work. I work in English and Spanish (*también trabajo en español*).
+
+[Portfolio](https://juliancontreras02.github.io) · [LinkedIn](https://www.linkedin.com/in/julian-contreras-8486632b3/) · [Email](mailto:juliancontreras395@gmail.com)
 
 ## Featured projects
 
@@ -23,6 +25,7 @@ Available for freelance and contract work. I work in English and Spanish (*tambi
 
 ## In production work I have
 
+- Tuned SQL queries and services on tables with millions of rows at a 500+ employee customs brokerage, taking them from minutes to seconds; one critical query went from 5 minutes to 10 seconds (30× faster).
 - Migrated a legacy PHP system to a modular Laravel 11 platform on AWS Lambda (Bref) and EC2, with a React 18 front end.
 - Automated a regulatory submission process that used to be manual (about 1,200 operations a year), with an idempotent control table, a per-client mutex, size-capped PDF packaging and an audit trail.
 - Load-tested a quarterly report against 100,000 worst-case records before release.

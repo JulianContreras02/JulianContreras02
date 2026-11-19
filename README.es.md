@@ -6,7 +6,9 @@
 
 Ingeniero de sistemas con máster en DevOps (UNIR), en Colombia (UTC−5). Modernizo sistemas backend: llevo PHP heredado a Laravel en AWS, conecto sistemas que nunca se pensaron para hablar entre sí y construyo procesos por lotes que siguen funcionando cuando algo falla a las 3 de la mañana.
 
-Disponible para trabajo freelance y por contrato, en español o en inglés.
+Disponible para empleo remoto de tiempo completo, freelance y trabajo por contrato, en español o en inglés.
+
+[Portafolio](https://juliancontreras02.github.io) · [LinkedIn](https://www.linkedin.com/in/julian-contreras-8486632b3/) · [Correo](mailto:juliancontreras395@gmail.com)
 
 ## Proyectos destacados
 
@@ -23,6 +25,7 @@ Disponible para trabajo freelance y por contrato, en español o en inglés.
 
 ## En proyectos reales he
 
+- Optimizado consultas SQL y servicios sobre tablas de millones de registros en una agencia de aduanas de más de 500 empleados, bajándolas de minutos a segundos; una consulta crítica pasó de 5 minutos a 10 segundos (30 veces más rápida).
 - Migrado un sistema PHP heredado a una plataforma modular en Laravel 11 sobre AWS Lambda (Bref) y EC2, con frontend en React 18.
 - Automatizado un proceso de reporte regulatorio que antes era manual (unas 1.200 operaciones al año), con una tabla de control idempotente, un mutex por cliente, empaquetado de PDF con tope de tamaño y trazabilidad para auditoría.
 - Probado un reporte trimestral con 100.000 registros de peor caso antes de salir a producción.
